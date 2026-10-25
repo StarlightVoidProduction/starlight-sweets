@@ -3,7 +3,7 @@ const availability = {
   "2026-10-25": "available",
   "2026-10-30": "available",
   "2026-10-31": "limited",
-  "2026-11-01": "sold"
+  "2026-11-01": "available"
 };
 
 let displayedMonth = new Date(2026, 9, 1);
