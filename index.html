@@ -109,30 +109,47 @@
     </section>
 
 
-    <section class="section availability">
+   <section class="section availability" id="availability">
 
-      <h2>This Weekend</h2>
+  <h2>Order Availability 🎀</h2>
 
-      <div class="availability-box">
+  <p class="section-subtitle">
+    Select highlighted weekend dates to see availability.
+  </p>
 
-        <span class="status-dot"></span>
+  <div class="calendar">
 
-        <div>
-          <strong>Orders Open</strong>
+    <div class="calendar-header">
+      <button id="prevMonth" type="button">‹</button>
+      <h3 id="calendarTitle"></h3>
+      <button id="nextMonth" type="button">›</button>
+    </div>
 
-          <p>
-            Now taking orders for this weekend!
-          </p>
-        </div>
+    <div class="calendar-weekdays">
+      <span>Sun</span>
+      <span>Mon</span>
+      <span>Tue</span>
+      <span>Wed</span>
+      <span>Thu</span>
+      <span>Fri</span>
+      <span>Sat</span>
+    </div>
 
-      </div>
+    <div id="calendarDays" class="calendar-days"></div>
 
-      <p>
-        Quantities are limited unless your order is placed in advance.
-      </p>
+    <div class="calendar-key">
+      <span><i class="available-key"></i> Available</span>
+      <span><i class="limited-key"></i> Limited</span>
+      <span><i class="sold-key"></i> Sold Out</span>
+    </div>
 
-    </section>
+    <p id="availabilityMessage" class="availability-message">
+      Choose a highlighted date.
+    </p>
 
+  </div>
+
+</section>
 
     <section class="section" id="order">
 
