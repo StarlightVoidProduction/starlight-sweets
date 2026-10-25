@@ -1,1 +1,9 @@
+const orderButton = document.getElementById("orderButton");
 
+orderButton.addEventListener("click", function(event) {
+  event.preventDefault();
+
+  alert(
+    "Online ordering is coming next! 💕"
+  );
+});
